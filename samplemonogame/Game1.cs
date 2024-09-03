@@ -8,7 +8,8 @@ namespace samplemonogame
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        
+
+        int feature1;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
